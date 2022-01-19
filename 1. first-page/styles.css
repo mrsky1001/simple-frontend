@@ -1,0 +1,39 @@
+
+*{
+    font-family: monospace;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50vw 0 20vw;
+}
+
+h1, p{
+    padding: 10px;
+}
+
+.edit-form .form-control{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.edit-form .form-control input{
+    width: 100%
+}
+
+.edit-form .form-control input[type="checkbox"]{
+    width: auto;
+}
+
+.edit-form .form-btn{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first page!</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <!--минута становления (ах да так выглядит комментарий)-->
+    <h1>My first page!</h1>
+    <p>Hello, am a programmer!</p>
+    <form class="edit-form" onsubmit=" return false;">
+        <div class="form-control">
+            <label for="inputName">Имя</label>
+            <input id="inputName" />
+        </div>
+        <div class="form-control">
+            <label for="inputPassword">Password</label>
+            <input id="inputPassword"  type="password"/>
+        </div>
+        <div class="form-control">
+            <label for="inputEmail">Email</label>
+            <input id="inputEmail" type="email"/>
+        </div>
+        <div class="form-control">
+            <label for="inputDate">Дата рождения</label>
+            <input id="inputDate" type="date" />
+        </div>
+        <div class="form-control">
+            <label for="inputAgree">Согласие на обработку перс. данных</label>
+            <input id="inputAgree" type="checkbox" />
+        </div>
+        <div class="form-btn">
+            <button type="submit" onclick="send()">Отправить</button>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
